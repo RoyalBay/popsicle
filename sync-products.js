@@ -9,8 +9,8 @@ const fs = require('fs');
 const https = require('https');
 
 // ---- CONFIG ----
-const SUPABASE_URL = 'YOUR_SUPABASE_URL';      // e.g. https://xyz.supabase.co
-const SUPABASE_SERVICE_KEY = 'YOUR_SERVICE_KEY'; // Use service_role key for upsert
+const SUPABASE_URL = 'https://plrhgzsjbvpygjjysxot.supabase.co';      // e.g. https://xyz.supabase.co
+const SUPABASE_SERVICE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InBscmhnenNqYnZweWdqanlzeG90Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3Nzc2NjY0MDAsImV4cCI6MjA5MzI0MjQwMH0.V_t1Dq-ap69n5IscjFauyMzT3-x-I46UpZP_mXTL9PY'; // Use service_role key for upsert
 // ----------------
 
 const raw = fs.readFileSync('products.txt', 'utf8');
