@@ -2,5 +2,4 @@
 # Format: (name), (price), (ProdID)
 # Example entries below — add your products in the same format
 
-Strawberry Cream Pop, 4.50, PP001
-Mango Chili Fusion, 5.25, PP002
+Freezie, 1, MF
